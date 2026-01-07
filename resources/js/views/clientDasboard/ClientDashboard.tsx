@@ -73,7 +73,7 @@ const ClientDashboard = () => {
           Recent Attendance
         </h2>
 
-        <table className="w-full text-sm min-w-[500px] text-gray-800">
+        <table className="w-full text-sm min-w-125 text-gray-800">
           <thead className="bg-gray-200 text-gray-700">
             <tr>
               <th className="p-2 text-left">Date</th>
