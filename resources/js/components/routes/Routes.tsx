@@ -3,6 +3,7 @@ import { Route, Routes as Router } from 'react-router-dom';
 
 import Main from '../../views/Main';
 import Login from '../../views/Login';
+import Signup from '../../views/Signup';
 import ClientDashboard from '../../views/clientDasboard/ClientDashboard';
 import LandingPage from '../../views/LandingPage';
 
@@ -13,6 +14,7 @@ const Routes = () => {
         <Router>
             <Route path = '/' element = {<LandingPage/>}/>
             <Route path = '/login' element = {<Login/>}/>
+            <Route path = '/signup' element = {<Signup/>}/>
            
             <Route path = '/client-dashboard' element = {<ClientDashboard/>}/>
 
